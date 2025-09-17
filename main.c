@@ -63,8 +63,7 @@ int main()
                     printf("\nERRO: Entrada inválida! Por favor, liste as opções disponíveis na opção 2 do menu.\n\n");
 
                     int c;
-                    while ((c = getchar()) != '\n' && c != EOF)
-                        ;
+                    while ((c = getchar()) != '\n' && c != EOF);
                 }
                 else
                 {
@@ -82,8 +81,7 @@ int main()
                     printf("\nERRO: Entrada inválida! Por favor, digite apenas números.\n\n");
 
                     int c;
-                    while ((c = getchar()) != '\n' && c != EOF)
-                        ;
+                    while ((c = getchar()) != '\n' && c != EOF);
                 }
                 else
                 {
